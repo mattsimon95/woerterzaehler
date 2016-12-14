@@ -7,11 +7,16 @@ import java.util.Scanner;
 
 public class Worterzaehler2
 {
-	private String path ;
-	private int z = 0;
+	private int z;
+	private String path;
 	
+	public Worterzaehler2(String p)
+	{
+	path =p;
+	z = 0;
+	}
 	
-	public int startcounting(String path) throws FileNotFoundException
+	public int startcounting() throws FileNotFoundException
 	{
 		
 			Scanner scan = new Scanner(new FileInputStream(path));
