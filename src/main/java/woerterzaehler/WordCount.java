@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 
 public class WordCount {
   
+	//schaut ob aktuelles Zeichen ein Trennzeichen ist
     public static boolean isDelimiter(char c,String del) {
         int i;
 
